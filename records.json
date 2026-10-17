@@ -1,0 +1,1168 @@
+{
+ "train_maps": [
+  0,
+  2,
+  4,
+  6,
+  9
+ ],
+ "eval_maps": [
+  1,
+  3,
+  5,
+  7,
+  8
+ ],
+ "records": [
+  {
+   "map_seed": 1,
+   "pair": 0,
+   "start": [
+    0.0,
+    6.0
+   ],
+   "goal": [
+    4.0,
+    23.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 21.0,
+    "pops": 63,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 3.899986040778458e-07,
+    "search_s": 0.0010008360004576389,
+    "validation_s": 4.4578999222721905e-05,
+    "total_s": 0.0010458049982844386,
+    "traced_peak_bytes_uncapped_time": 12896
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 21.0,
+    "pops": 63,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 4.969999281456694e-06,
+    "search_s": 0.0009988660021917894,
+    "validation_s": 3.550899782567285e-05,
+    "total_s": 0.001039344999298919,
+    "traced_peak_bytes_uncapped_time": 12760
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 21.0
+   }
+  },
+  {
+   "map_seed": 1,
+   "pair": 1,
+   "start": [
+    21.0,
+    2.0
+   ],
+   "goal": [
+    4.0,
+    10.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 25.0,
+    "pops": 155,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.7999991541728377e-07,
+    "search_s": 0.002434856000036234,
+    "validation_s": 5.013999907532707e-05,
+    "total_s": 0.0024851759990269784,
+    "traced_peak_bytes_uncapped_time": 39144
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 25.0,
+    "pops": 155,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 2.61999957729131e-06,
+    "search_s": 0.00252266499956022,
+    "validation_s": 4.94699997943826e-05,
+    "total_s": 0.002574754998931894,
+    "traced_peak_bytes_uncapped_time": 39376
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 25.0
+   }
+  },
+  {
+   "map_seed": 1,
+   "pair": 2,
+   "start": [
+    10.0,
+    5.0
+   ],
+   "goal": [
+    5.0,
+    20.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 96,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.7000274965539575e-07,
+    "search_s": 0.0015884679996815976,
+    "validation_s": 4.029900082969107e-05,
+    "total_s": 0.001628937003260944,
+    "traced_peak_bytes_uncapped_time": 27344
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 96,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 2.6899979275185615e-06,
+    "search_s": 0.001652207000006456,
+    "validation_s": 4.12600020354148e-05,
+    "total_s": 0.0016961569999693893,
+    "traced_peak_bytes_uncapped_time": 28040
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 20.0
+   }
+  },
+  {
+   "map_seed": 1,
+   "pair": 3,
+   "start": [
+    13.0,
+    18.0
+   ],
+   "goal": [
+    11.0,
+    19.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 3.0,
+    "pops": 4,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.7999991541728377e-07,
+    "search_s": 6.869899880257435e-05,
+    "validation_s": 1.0890002158703282e-05,
+    "total_s": 7.976900087669492e-05,
+    "traced_peak_bytes_uncapped_time": 2968
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 3.0,
+    "pops": 4,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 2.1800005924887955e-06,
+    "search_s": 7.965899931150489e-05,
+    "validation_s": 9.510000381851569e-06,
+    "total_s": 9.134900028584525e-05,
+    "traced_peak_bytes_uncapped_time": 2392
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 3.0
+   }
+  },
+  {
+   "map_seed": 1,
+   "pair": 4,
+   "start": [
+    19.0,
+    26.0
+   ],
+   "goal": [
+    11.0,
+    14.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 104,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.4999750419519842e-07,
+    "search_s": 0.0016251380002358928,
+    "validation_s": 3.743900015251711e-05,
+    "total_s": 0.0016627269978926051,
+    "traced_peak_bytes_uncapped_time": 28520
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 104,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 2.3800021153874695e-06,
+    "search_s": 0.0016666970004735049,
+    "validation_s": 3.8419999327743426e-05,
+    "total_s": 0.0017074970019166358,
+    "traced_peak_bytes_uncapped_time": 29216
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 20.0
+   }
+  },
+  {
+   "map_seed": 3,
+   "pair": 0,
+   "start": [
+    1.0,
+    11.0
+   ],
+   "goal": [
+    16.0,
+    24.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 28.0,
+    "pops": 217,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.7999991541728377e-07,
+    "search_s": 0.003244535000703763,
+    "validation_s": 5.0309001380810514e-05,
+    "total_s": 0.003295024001999991,
+    "traced_peak_bytes_uncapped_time": 43296
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 28.0,
+    "pops": 217,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 3.35000004270114e-06,
+    "search_s": 0.003439881998929195,
+    "validation_s": 5.032999979448505e-05,
+    "total_s": 0.0034935619987663813,
+    "traced_peak_bytes_uncapped_time": 44352
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 28.0
+   }
+  },
+  {
+   "map_seed": 3,
+   "pair": 1,
+   "start": [
+    24.0,
+    22.0
+   ],
+   "goal": [
+    7.0,
+    6.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 33.0,
+    "pops": 310,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 2.1000232663936913e-07,
+    "search_s": 0.0046829349994368386,
+    "validation_s": 5.616899943561293e-05,
+    "total_s": 0.004739314001199091,
+    "traced_peak_bytes_uncapped_time": 102000
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 33.0,
+    "pops": 310,
+    "rekeys": 1,
+    "reopens": 0,
+    "guidance_s": 2.130000211764127e-06,
+    "search_s": 0.00395579500036547,
+    "validation_s": 4.785900091519579e-05,
+    "total_s": 0.0040057840014924295,
+    "traced_peak_bytes_uncapped_time": 102216
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 33.0
+   }
+  },
+  {
+   "map_seed": 3,
+   "pair": 2,
+   "start": [
+    13.0,
+    16.0
+   ],
+   "goal": [
+    28.0,
+    24.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 23.0,
+    "pops": 155,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.0020227320019330364,
+    "validation_s": 3.671000013127923e-05,
+    "total_s": 0.0020595720015990082,
+    "traced_peak_bytes_uncapped_time": 43992
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 23.0,
+    "pops": 155,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.8099999579135329e-06,
+    "search_s": 0.0020599720010068268,
+    "validation_s": 3.7478999729501083e-05,
+    "total_s": 0.0020992610006942414,
+    "traced_peak_bytes_uncapped_time": 44368
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 23.0
+   }
+  },
+  {
+   "map_seed": 3,
+   "pair": 3,
+   "start": [
+    12.0,
+    20.0
+   ],
+   "goal": [
+    23.0,
+    25.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 16.0,
+    "pops": 73,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.400003384333104e-07,
+    "search_s": 0.000945847001275979,
+    "validation_s": 2.6030000299215317e-05,
+    "total_s": 0.0009720170019136276,
+    "traced_peak_bytes_uncapped_time": 20872
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 16.0,
+    "pops": 73,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.720000000204891e-06,
+    "search_s": 0.0009957660004147328,
+    "validation_s": 2.6649999199435115e-05,
+    "total_s": 0.0010241359996143728,
+    "traced_peak_bytes_uncapped_time": 21240
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 16.0
+   }
+  },
+  {
+   "map_seed": 3,
+   "pair": 4,
+   "start": [
+    1.0,
+    24.0
+   ],
+   "goal": [
+    27.0,
+    2.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 48.0,
+    "pops": 567,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.006780986001103884,
+    "validation_s": 6.718899749103002e-05,
+    "total_s": 0.006848304998129606,
+    "traced_peak_bytes_uncapped_time": 106856
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 48.0,
+    "pops": 567,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 2.830001903930679e-06,
+    "search_s": 0.006913695000548614,
+    "validation_s": 6.843899973318912e-05,
+    "total_s": 0.006984964002185734,
+    "traced_peak_bytes_uncapped_time": 108344
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 48.0
+   }
+  },
+  {
+   "map_seed": 5,
+   "pair": 0,
+   "start": [
+    8.0,
+    25.0
+   ],
+   "goal": [
+    21.0,
+    11.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 27.0,
+    "pops": 228,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.6999911167658865e-07,
+    "search_s": 0.0028474909995566122,
+    "validation_s": 4.0218998037744313e-05,
+    "total_s": 0.002887879996706033,
+    "traced_peak_bytes_uncapped_time": 45088
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 27.0,
+    "pops": 228,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 2.019998646574095e-06,
+    "search_s": 0.002947820001281798,
+    "validation_s": 4.036899917991832e-05,
+    "total_s": 0.0029902089991082903,
+    "traced_peak_bytes_uncapped_time": 46360
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 27.0
+   }
+  },
+  {
+   "map_seed": 5,
+   "pair": 1,
+   "start": [
+    18.0,
+    15.0
+   ],
+   "goal": [
+    13.0,
+    28.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 18.0,
+    "pops": 86,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.0010766960003820714,
+    "validation_s": 2.757900074357167e-05,
+    "total_s": 0.0011044050006603356,
+    "traced_peak_bytes_uncapped_time": 28008
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 18.0,
+    "pops": 86,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.8399987311568111e-06,
+    "search_s": 0.0011345439997967333,
+    "validation_s": 2.750999919953756e-05,
+    "total_s": 0.0011638939977274276,
+    "traced_peak_bytes_uncapped_time": 29392
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 18.0
+   }
+  },
+  {
+   "map_seed": 5,
+   "pair": 2,
+   "start": [
+    14.0,
+    26.0
+   ],
+   "goal": [
+    15.0,
+    21.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 6.0,
+    "pops": 7,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.1999873095192015e-07,
+    "search_s": 9.551900075166486e-05,
+    "validation_s": 1.1029998859157786e-05,
+    "total_s": 0.00010666899834177457,
+    "traced_peak_bytes_uncapped_time": 3960
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 6.0,
+    "pops": 7,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.7499987734481692e-06,
+    "search_s": 0.00011316800009808503,
+    "validation_s": 1.1159998393850401e-05,
+    "total_s": 0.0001260779972653836,
+    "traced_peak_bytes_uncapped_time": 4752
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 6.0
+   }
+  },
+  {
+   "map_seed": 5,
+   "pair": 3,
+   "start": [
+    29.0,
+    0.0
+   ],
+   "goal": [
+    7.0,
+    19.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 41.0,
+    "pops": 349,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.400003384333104e-07,
+    "search_s": 0.004217461999360239,
+    "validation_s": 6.083900007070042e-05,
+    "total_s": 0.004278440999769373,
+    "traced_peak_bytes_uncapped_time": 95728
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 41.0,
+    "pops": 349,
+    "rekeys": 1,
+    "reopens": 0,
+    "guidance_s": 1.929998688865453e-06,
+    "search_s": 0.004330939998908434,
+    "validation_s": 6.244000178412534e-05,
+    "total_s": 0.004395309999381425,
+    "traced_peak_bytes_uncapped_time": 96072
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 41.0
+   }
+  },
+  {
+   "map_seed": 5,
+   "pair": 4,
+   "start": [
+    4.0,
+    11.0
+   ],
+   "goal": [
+    11.0,
+    26.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 22.0,
+    "pops": 129,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.9999788491986692e-07,
+    "search_s": 0.0016174980009964202,
+    "validation_s": 3.1628998840460554e-05,
+    "total_s": 0.0016493269977218006,
+    "traced_peak_bytes_uncapped_time": 30160
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 22.0,
+    "pops": 129,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 2.519998815841973e-06,
+    "search_s": 0.0016805870000098366,
+    "validation_s": 3.256900163250975e-05,
+    "total_s": 0.0017156760004581884,
+    "traced_peak_bytes_uncapped_time": 30416
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 22.0
+   }
+  },
+  {
+   "map_seed": 7,
+   "pair": 0,
+   "start": [
+    10.0,
+    12.0
+   ],
+   "goal": [
+    17.0,
+    5.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 53,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.400003384333104e-07,
+    "search_s": 0.000685611001244979,
+    "validation_s": 2.559999848017469e-05,
+    "total_s": 0.000711351000063587,
+    "traced_peak_bytes_uncapped_time": 10928
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 53,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.91000071936287e-06,
+    "search_s": 0.0007218799983093049,
+    "validation_s": 2.405900158919394e-05,
+    "total_s": 0.0007478490006178617,
+    "traced_peak_bytes_uncapped_time": 11144
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 14.0
+   }
+  },
+  {
+   "map_seed": 7,
+   "pair": 1,
+   "start": [
+    12.0,
+    15.0
+   ],
+   "goal": [
+    16.0,
+    25.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 47,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.500011421740055e-07,
+    "search_s": 0.0005872610017831903,
+    "validation_s": 2.2569998691324145e-05,
+    "total_s": 0.0006099810016166884,
+    "traced_peak_bytes_uncapped_time": 11624
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 47,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.820000761654228e-06,
+    "search_s": 0.0006257919994823169,
+    "validation_s": 2.2758998966310173e-05,
+    "total_s": 0.0006503709992102813,
+    "traced_peak_bytes_uncapped_time": 12168
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 14.0
+   }
+  },
+  {
+   "map_seed": 7,
+   "pair": 2,
+   "start": [
+    19.0,
+    1.0
+   ],
+   "goal": [
+    14.0,
+    2.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 6.0,
+    "pops": 7,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.3000317267142236e-07,
+    "search_s": 9.849900015979074e-05,
+    "validation_s": 1.2139997124904767e-05,
+    "total_s": 0.00011076900045736693,
+    "traced_peak_bytes_uncapped_time": 3320
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 6.0,
+    "pops": 7,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 1.6800004232209176e-06,
+    "search_s": 0.00010513800225453451,
+    "validation_s": 1.1859996448038146e-05,
+    "total_s": 0.00011867799912579358,
+    "traced_peak_bytes_uncapped_time": 3704
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 6.0
+   }
+  },
+  {
+   "map_seed": 7,
+   "pair": 3,
+   "start": [
+    4.0,
+    21.0
+   ],
+   "goal": [
+    8.0,
+    3.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 22.0,
+    "pops": 85,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.0010212560009676963,
+    "validation_s": 3.0300001526484266e-05,
+    "total_s": 0.0010516860020288732,
+    "traced_peak_bytes_uncapped_time": 28144
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 22.0,
+    "pops": 85,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.7799975466914475e-06,
+    "search_s": 0.0010855440013983753,
+    "validation_s": 3.0189999961294234e-05,
+    "total_s": 0.001117513998906361,
+    "traced_peak_bytes_uncapped_time": 29000
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 22.0
+   }
+  },
+  {
+   "map_seed": 7,
+   "pair": 4,
+   "start": [
+    8.0,
+    14.0
+   ],
+   "goal": [
+    0.0,
+    23.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 17.0,
+    "pops": 73,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.6000194591470063e-07,
+    "search_s": 0.0008860869966156315,
+    "validation_s": 2.378000135649927e-05,
+    "total_s": 0.0009100269999180455,
+    "traced_peak_bytes_uncapped_time": 20848
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 17.0,
+    "pops": 73,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.720000000204891e-06,
+    "search_s": 0.0009285170017392375,
+    "validation_s": 2.418899748590775e-05,
+    "total_s": 0.0009544259992253501,
+    "traced_peak_bytes_uncapped_time": 21160
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 17.0
+   }
+  },
+  {
+   "map_seed": 8,
+   "pair": 0,
+   "start": [
+    16.0,
+    8.0
+   ],
+   "goal": [
+    7.0,
+    14.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 15.0,
+    "pops": 50,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.400003384333104e-07,
+    "search_s": 0.0006340910003928002,
+    "validation_s": 2.5468998501310125e-05,
+    "total_s": 0.0006596999992325436,
+    "traced_peak_bytes_uncapped_time": 12904
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 15.0,
+    "pops": 50,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.9999970390927047e-06,
+    "search_s": 0.000672910002322169,
+    "validation_s": 2.486999801476486e-05,
+    "total_s": 0.0006997799973760266,
+    "traced_peak_bytes_uncapped_time": 13216
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 15.0
+   }
+  },
+  {
+   "map_seed": 8,
+   "pair": 1,
+   "start": [
+    12.0,
+    14.0
+   ],
+   "goal": [
+    9.0,
+    4.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 13.0,
+    "pops": 25,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.3000317267142236e-07,
+    "search_s": 0.0003484149965515826,
+    "validation_s": 2.2050000552553684e-05,
+    "total_s": 0.0003705950002768077,
+    "traced_peak_bytes_uncapped_time": 10704
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 13.0,
+    "pops": 25,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 1.9600011000875384e-06,
+    "search_s": 0.00034648500150069594,
+    "validation_s": 2.3509997845394537e-05,
+    "total_s": 0.000371955000446178,
+    "traced_peak_bytes_uncapped_time": 10856
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 13.0
+   }
+  },
+  {
+   "map_seed": 8,
+   "pair": 2,
+   "start": [
+    26.0,
+    6.0
+   ],
+   "goal": [
+    13.0,
+    28.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 35.0,
+    "pops": 338,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.004115662999538472,
+    "validation_s": 5.062000127509236e-05,
+    "total_s": 0.004166413000348257,
+    "traced_peak_bytes_uncapped_time": 101400
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 35.0,
+    "pops": 338,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 1.9799990695901215e-06,
+    "search_s": 0.004186042002402246,
+    "validation_s": 5.058899841969833e-05,
+    "total_s": 0.0042386109998915344,
+    "traced_peak_bytes_uncapped_time": 101840
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 35.0
+   }
+  },
+  {
+   "map_seed": 8,
+   "pair": 3,
+   "start": [
+    14.0,
+    1.0
+   ],
+   "goal": [
+    27.0,
+    2.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 15,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.500011421740055e-07,
+    "search_s": 0.00021623700013151392,
+    "validation_s": 2.243999915663153e-05,
+    "total_s": 0.00023882700043031946,
+    "traced_peak_bytes_uncapped_time": 8496
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 14.0,
+    "pops": 17,
+    "rekeys": 3,
+    "reopens": 0,
+    "guidance_s": 2.3899992811493576e-06,
+    "search_s": 0.00027459600096335635,
+    "validation_s": 2.232000042567961e-05,
+    "total_s": 0.0002993060006701853,
+    "traced_peak_bytes_uncapped_time": 8560
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 14.0
+   }
+  },
+  {
+   "map_seed": 8,
+   "pair": 4,
+   "start": [
+    23.0,
+    4.0
+   ],
+   "goal": [
+    10.0,
+    9.0
+   ],
+   "baseline": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 121,
+    "rekeys": 0,
+    "reopens": 0,
+    "guidance_s": 1.2999953469261527e-07,
+    "search_s": 0.0015053289971547201,
+    "validation_s": 3.098000161116943e-05,
+    "total_s": 0.0015364389983005822,
+    "traced_peak_bytes_uncapped_time": 26264
+   },
+   "guided": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "guidance_failure": null,
+    "validated": true,
+    "valid_by_deadline": true,
+    "length_m": 20.0,
+    "pops": 121,
+    "rekeys": 2,
+    "reopens": 0,
+    "guidance_s": 1.7999991541728377e-06,
+    "search_s": 0.001530989000457339,
+    "validation_s": 3.135899896733463e-05,
+    "total_s": 0.0015641479985788465,
+    "traced_peak_bytes_uncapped_time": 26448
+   },
+   "reference": {
+    "status": "GEOMETRIC_CANDIDATE",
+    "length_m": 20.0
+   }
+  }
+ ]
+}
