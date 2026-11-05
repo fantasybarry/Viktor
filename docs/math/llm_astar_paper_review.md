@@ -86,7 +86,7 @@ The paper's central search formulas are unnumbered in Sections 3.1-3.2 and Appen
 | $g(s)$ | Best discovered start-to-state cost; variable | Nonnegative scalar, or $+\infty$ when undiscovered | Cost units |
 | $h(s),h^\star(s)$ | Goal estimate and actual optimal remaining cost; input/derived | Nonnegative scalars for reachable states | Cost units |
 | $T=(t_0,\ldots,t_{K-1})$, $t$ | LLM waypoint sequence and current target; model output/variable | $K$ coordinate vectors; one active vector | Map units; $K$ dimensionless |
-| $d_t(s)$ | Waypoint-distance term, corresponding to paper's $cost(t,s)$; variable | Nonnegative scalar; $\Verts-t\Vert_2$ in examples | Cost units |
+| $d_t(s)$ | Waypoint-distance term, corresponding to paper's $cost(t,s)$; variable | Nonnegative scalar; $\lVert s-t\rVert_2$ in examples | Cost units |
 | $f(s),h_{\rm eff}(s)$ | Queue priority and combined heuristic; variables | Scalar | Cost units |
 | OPEN, CLOSED | Search frontier and processed-state sets; variables | Subsets of $V$ | Dimensionless counts |
 | $m_i^{H},m_i^{A},R_i$ | Hybrid and A* metric values, and their ratio on task $i$; outputs | Positive scalar values; ratio $>0$ | Matching metric units; ratio dimensionless |
@@ -129,9 +129,9 @@ The paper reports no camera-to-plan milliseconds, LLM token-generation timing, d
 
 ### D. Interpreting complexity and aggregation
 
-For an ordinary finite graph, a consistent heuristic and a binary-heap implementation give the familiar $O((\vertV\vert+\vertE\vert)\log \vertV\vert)$ search bound with appropriate decrease-key handling and $O(\vertV\vert)$ auxiliary state storage, excluding the graph representation. On a bounded-degree grid, $\vertE\vert=O(\vertV\vert)$. This is an illustrative implementation analysis, not a complexity theorem proved by the paper.
+For an ordinary finite graph, a consistent heuristic and a binary-heap implementation give the familiar $O((\lvert V\rvert+\lvert E\rvert)\log \lvert V\rvert)$ search bound with appropriate decrease-key handling and $O(\lvert V\rvert)$ auxiliary state storage, excluding the graph representation. On a bounded-degree grid, $\lvert E\rvert=O(\lvert V\rvert)$. This is an illustrative implementation analysis, not a complexity theorem proved by the paper.
 
-Changing all frontier priorities at target switch $j$ requires evaluating $\vertO_j\vert$ priorities. A complete heap rebuild can be linear in $\vertO_j\vert$; updating keys individually can instead introduce an extra logarithmic factor. Over switches, the overhead depends on $\sum_{j=1}^{J}\vertO_j\vert$, in addition to LLM inference. An operation count needs to specify whether and how it includes this work.
+Changing all frontier priorities at target switch $j$ requires evaluating $\lvert O_j\rvert$ priorities. A complete heap rebuild can be linear in $\lvert O_j\rvert$; updating keys individually can instead introduce an extra logarithmic factor. Over switches, the overhead depends on $\sum_{j=1}^{J}\lvert O_j\rvert$, in addition to LLM inference. An operation count needs to specify whether and how it includes this work.
 
 If both spatial dimensions scale by $a$ while cell size stays fixed, grid-state count grows on the order of $a^2$. At 10 times coordinate scale, this is about 100 times as many states. A rapidly bending curve against coordinate scale therefore does not demonstrate exponential complexity. Figure 3 provides empirical scaling evidence over the sampled maps; its exponential-versus-linear wording is stronger than the evidence supports.
 

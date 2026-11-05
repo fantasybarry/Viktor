@@ -218,7 +218,7 @@ def summarize(result: dict) -> dict:
             "max_traced_peak_bytes_uncapped_time": max(x["traced_peak_bytes_uncapped_time"] for x in rs) if rs else None,
         }
     out["reference_uncapped"] = {"status_counts": dict(Counter(r["reference"]["status"] for r in recs))}
-    out["process_peak_rss_kib"] = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss  # Linux: KiB, whole process
+    out["process_peak_rss_kib"] = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss // (1024 if sys.platform == "darwin" else 1)  # whole process; macOS reports bytes, Linux KiB
     return out
 
 
