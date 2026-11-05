@@ -275,7 +275,7 @@ These issues were **recorded, not edited**, because the current request is a han
 
 The user wants mathematical discussion with usable Markdown handoffs and has explicitly corrected unwanted implementation. Be direct, state assumptions, avoid speculative abstractions, make surgical edits, and verify meaningful results.
 
-The researcher role configuration is at /home/barry/Viktor/.codex/agents/researcher.toml. It asks for problem definition, assumptions, notation, derivation, final equations, constraints, pseudocode, checked numerical examples, expected outputs, risks, edge cases, and open questions. Read it when restarting that role.
+The researcher role configuration is at .claude/agents/researcher.md. It asks for problem definition, assumptions, notation, derivation, final equations, constraints, pseudocode, checked numerical examples, expected outputs, risks, edge cases, and open questions. Read it when restarting that role.
 
 Use existing documents instead of duplicating specifications. For this project, inline formulas use dollar-delimited math and displays use double-dollar blocks, with aligned or gathered rows for long expressions. Keep complete quantities and units inside math delimiters. Pseudocode identifiers may remain code-formatted.
 
